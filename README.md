@@ -1,6 +1,6 @@
 # Simple Portfolio
 
-https://ferdelll.github.io/simple-portfolio/
+https://ferdelll.github.io/simple-portfolio/ - live demo
 
 A clean, responsive portfolio landing page built with HTML and CSS. It showcases a personal profile, contact links, and several project cards with colorful sections and modern styling.
 
