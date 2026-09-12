@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: min(100%, 1000px);
+    margin: 0 auto;
+}
+.text-img-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.text-img-link:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.full {
+    width: 100%;
+    height: 100%;
+}
+.contacts {
+    margin-top: 10px;
+}
+.head-text h1,
+.head-text p {
+    margin: 0;
+    padding: 0;
+}
+.head-block {
+    padding: clamp(20px, 5vw, 30px);
+}
+.photo-pos {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+    margin-top: -200px;
+}
+
+.profile-photo-card {
+    display: block;
+    width: min(200px, 35vw);
+    max-width: 100%;
+    border-radius: 10px;
+    border: 5px dashed rgb(187, 182, 182);
+}
+.profile-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.desc {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: min(500px, 100%);
+}
+.first-block,
+.second-block,
+.third-block {
+    width: 100%;
+}
+.first-block {
+    margin-top: 30px;
+    background-color: blueviolet;
+}
+.second-block{
+    background-color: rgb(9, 108, 221);
+}
+.third-block{
+    background-color: rgb(221, 122, 9);
+}
+.project-card {
+    color: white;
+    width: min(900px, 100%);
+    margin: 0 auto;
+    padding: 40px clamp(20px, 5vw, 40px);
+}
+.project-img-card {
+    width: min(400px, 100%);
+    margin: 0 auto;
+}
+
+.project-img-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: gray;
+}
+.box a {
+    color: white;
+    margin: 5px;
+    transition: color 0.2s ease;
+}
+.box a:hover {
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .photo-pos {
+        justify-content: center;
+        padding: 0 20px 20px;
+        margin-top: 0;
+    }
+
+    .profile-photo-card {
+        width: min(220px, 100%);
+    }
+}
